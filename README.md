@@ -12,7 +12,7 @@ Dentro de la carpeta src se encuentra todo el código para que funcione el servi
 
 La carpeta Args contiene la función del problema 1
 
-La carpeta invertStrings es la que contiene la ruta y el controlador del endpoint para invertir la cadena, para hacer la operacion hay que iniciar el servidor con npm start
+La carpeta invertStrings es la que contiene la ruta y el controlador del endpoint para invertir la cadena del ejercicio 2, para hacer la operacion hay que iniciar el servidor con npm start
 Y utilizar la ruta [/string](http://localhost:3000/string) con una peticion get mandando un json como el que sigue:
 {
   "string" : "Ejercicios curatech"
