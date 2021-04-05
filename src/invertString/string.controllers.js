@@ -1,9 +1,11 @@
 
 const stringController = {}
 
-stringController.invertString = (req,res,next) =>{
+stringController.invertString = async (req,res,next) =>{
 
-    res.send('Listening this route')
+    const normalString = req.body
+
+    res.send(normalString);
 
         
 }
